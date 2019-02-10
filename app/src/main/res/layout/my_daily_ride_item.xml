@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    tools:src="@drawable/im_wasla" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/profile_image"
+                    android:layout_toLeftOf="@id/rating_parent"
+                    android:layout_toRightOf="@id/profile_image"
+
+                    android:layout_toStartOf="@id/rating_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#8F8F8F"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        tools:text="David Johnson" />
+
+                    <TextView
+                        android:id="@+id/car"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#DFDFDF"
+                        android:textSize="13sp"
+                        tools:text="Honda Civic | White" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rating_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/distance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        tools:text="3 KM" />
+
+                    <TextView
+                        android:id="@+id/seats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:textColor="#DFDFDF"
+                        android:textSize="12sp"
+                        tools:text="2 seats" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp">
+
+                <ImageView
+                    android:id="@+id/points"
+                    android:layout_width="10dp"
+                    android:layout_height="62dp"
+                    android:contentDescription="@string/image_content_description"
+                    android:src="@drawable/im_points_small" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toEndOf="@id/points"
+                    android:layout_toRightOf="@id/points"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/from_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#DFDFDF"
+                            android:textSize="12sp"
+                            tools:text="12:00 am" />
+
+                        <TextView
+                            android:id="@+id/from_place"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lines="1"
+                            android:ellipsize="end"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:textColor="#E0E0E0"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            tools:text="Washington Sq.park New York" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/to_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#DFDFDF"
+                            android:textSize="12sp"
+                            tools:text="12:25 am" />
+
+                        <TextView
+                            android:id="@+id/to_place"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:textColor="#E0E0E0"
+                            android:lines="1"
+                            android:ellipsize="end"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            tools:text="Harison, East Newark, New York" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="35dp"
+                tools:ignore="RtlSymmetry"
+                android:paddingStart="35dp">
+
+
+                <LinearLayout
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@id/date"
+                    android:layout_toRightOf="@id/date"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/expected_time"
+                        android:textColor="#DFDFDF"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/time_expected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        tools:text="12:10 pm" />
+
+
+
+                </LinearLayout>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/active"
+                    android:textSize="12sp"
+                    android:id="@+id/active"
+                    android:switchPadding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

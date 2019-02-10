@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="6dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                tools:src="@drawable/im_wasla" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/profile_image"
+                android:layout_toEndOf="@id/profile_image"
+                android:layout_marginLeft="15dp"
+                android:layout_toLeftOf="@id/rating_parent"
+                android:layout_toStartOf="@id/rating_parent"
+                android:layout_marginStart="15dp"
+
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:id="@+id/name"
+                    android:textColor="#8F8F8F"
+                    android:layout_height="wrap_content"
+                    tools:text="David Johnson"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="13sp"
+                    android:id="@+id/car"
+                    android:textColor="#DFDFDF"
+                    android:layout_height="wrap_content"
+                    tools:text="Honda Civic | White"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/rating_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content">
+
+                <RatingBar
+                    android:id="@+id/rating_bar"
+                    style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    tools:rating="3"
+                    android:theme="@style/yellow_rating_bar"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="12sp"
+                    android:id="@+id/number_of_reviews"
+                    android:textColor="#DFDFDF"
+                    android:gravity="end"
+                    android:layout_height="wrap_content"
+                    tools:text="(113 Reviews)"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="62dp"
+                android:id="@+id/points"
+                android:contentDescription="@string/image_content_description"
+                android:src="@drawable/im_points_small"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toRightOf="@id/points"
+                android:layout_toEndOf="@id/points"
+                android:layout_marginTop="13dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="12sp"
+                        android:id="@+id/from_date"
+                        android:textColor="#DFDFDF"
+                        android:layout_height="wrap_content"
+                        tools:text="12:00 am"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="12sp"
+                        android:id="@+id/from_place"
+                        android:lines="1"
+                        android:ellipsize="end"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:textColor="#E0E0E0"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        tools:text="Washington Sq.park New York"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="12sp"
+                        android:textColor="#DFDFDF"
+                        android:id="@+id/to_date"
+                        android:layout_height="wrap_content"
+                        tools:text="12:25 am"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="12sp"
+                        android:id="@+id/to_place"
+                        android:lines="1"
+                        android:ellipsize="end"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:textColor="#E0E0E0"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        tools:text="Harison, East Newark, New York"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:id="@+id/seats"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimary"
+                tools:text="3 seats"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:id="@+id/code"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/seats"
+                android:layout_toEndOf="@id/seats"
+                android:layout_toLeftOf="@id/status"
+                android:layout_toStartOf="@id/status"
+                android:textColor="@color/colorPrimary"
+                tools:text="AC"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginRight="40dp"
+                android:layout_toLeftOf="@id/duration"
+                android:id="@+id/status"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimary"
+                tools:text="Started"
+                android:layout_toStartOf="@id/duration"
+                android:layout_marginEnd="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_toLeftOf="@id/request_ride_button"
+                android:id="@+id/duration"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimary"
+                tools:text="45 M"
+                android:layout_marginRight="15dp"
+                android:layout_toStartOf="@id/request_ride_button"
+                android:layout_marginEnd="15dp" />
+
+            <Button
+                android:id="@+id/request_ride_button"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="90dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="1dp"
+                android:textAllCaps="false"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_button"
+                android:text="@string/request_ride"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:layout_marginEnd="1dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

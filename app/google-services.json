@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "289518516444",
+    "firebase_url": "https://wasla-bank.firebaseio.com",
+    "project_id": "wasla-bank",
+    "storage_bucket": "wasla-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289518516444:android:aa4d9c2570870efe",
+        "android_client_info": {
+          "package_name": "com.waslabank.waslabank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289518516444-ntheqm33thqcisicbr1u0gk1gpgce9kj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waslabank.waslabank",
+            "certificate_hash": "1aaa5a855d4de0c013d9fa66f768e6c7608ea55d"
+          }
+        },
+        {
+          "client_id": "289518516444-2tdb3i2b1pav8f8n578cif2mq2muo2dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhXMee6j0aZGPTD7SzQNKkvjPOOK5nuBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289518516444-2tdb3i2b1pav8f8n578cif2mq2muo2dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

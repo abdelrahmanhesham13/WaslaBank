@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#8F8F8F"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#8F8F8F"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:id="@+id/car_name"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#8F8F8F"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#8F8F8F"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:id="@+id/mobile"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/rating"
+        android:textColor="#8F8F8F"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+
+</LinearLayout>

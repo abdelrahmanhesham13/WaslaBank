@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".PhoneVerificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/bg_wasla">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/image_content_description"
+                android:src="@drawable/im_wasla" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:focusableInTouchMode="true"
+            android:descendantFocusability="beforeDescendants"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textColor="#A6A6A6"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="@string/enter_confirmation_code"
+                android:layout_height="wrap_content" />
+
+            <com.chaos.view.PinView
+                android:id="@+id/firstPinView"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:cursorVisible="true"
+                android:layout_marginTop="50dp"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="#A6A6A6"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cursorColor="#3DC5EB"
+                app:cursorWidth="2dp"
+                app:hideLineWhenFilled="false"
+                app:itemCount="6"
+                app:itemHeight="48dp"
+                app:itemRadius="4dp"
+                app:itemSpacing="5dp"
+                app:itemWidth="48dp"
+                app:lineColor="@drawable/bg_phone_verification"
+                app:lineWidth="2dp"
+                app:viewType="rectangle" />
+
+            <Button
+                android:id="@+id/verify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_button"
+                android:text="@string/verify"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

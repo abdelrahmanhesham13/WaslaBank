@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Wasla Bank</string>
+    <string name="image_content_description">Content Description</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot">Forgot</string>
+    <string name="password_forgot">&#160;password?</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="create_password">Create Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_confirmation_code">Enter confirmation code\nSent to you on your SMS !</string>
+    <string name="verify">Verify</string>
+    <string name="notifications">Notifications</string>
+    <string name="where_you_go">WHERE YOU GO ?</string>
+    <string name="your_location">Your Location</string>
+    <string name="where_to_go">Where to go?</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="post_a_ride">Post a Ride</string>
+    <string name="find_a_ride">Find a Ride</string>
+    <string name="request_ride">Request Ride</string>
+    <string name="my_rides">MY RIDES</string>
+    <string name="my_rides_small">Upcoming Rides</string>
+    <string name="ride_history">Ride History</string>
+    <string name="message">Message</string>
+    <string name="call">Call</string>
+    <string name="expected_time">Expected Time</string>
+    <string name="approved">Approved</string>
+    <string name="pending">Pending</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="drop_location">Drop Location</string>
+    <string name="locations">Locations</string>
+    <string name="date_time">Date and Time</string>
+    <string name="fare_and_seat">Fare and Seat Confirmation</string>
+    <string name="est_distance">Est. Distance</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_ride_request">Confirm Ride Request</string>
+    <string name="license">Driving License Image</string>
+    <string name="car_image">Car Image</string>
+    <string name="car_name">Car Name</string>
+    <string name="car_color">Car Color</string>
+    <string name="select_one">Select One</string>
+    <string name="map">Choose Location</string>
+    <string name="upload_your_image">Upload Your Image</string>
+    <string name="enter_first_name">Enter Your First Name</string>
+    <string name="enter_last_name">Enter Your Last Name</string>
+    <string name="enter_password">Enter Your Password</string>
+    <string name="enter_password_confirm">Enter Password Confirmation</string>
+    <string name="password_match">Passwords don\'t Match</string>
+    <string name="error">Error Please Try Again</string>
+    <string name="mobile">Enter Your Phone Number</string>
+    <string name="enter_email">Enter Your Email Address</string>
+    <string name="loading">Loading</string>
+    <string name="email">Email address</string>
+    <string name="image_folder">Image Folder</string>
+    <string name="select_image">Select Image</string>
+    <string name="blocked_device">Blocked Device</string>
+    <string name="error_in_phone">Error in Phone Number</string>
+    <string name="error_in_code">Error in Code</string>
+    <string name="enter_code">Enter Your Code</string>
+    <string name="dummy_phone">01234567890</string>
+    <string name="registered">Registered Before Please Log In</string>
+    <string name="facebook">Continue With Facebook</string>
+    <string name="google">Continue With Google</string>
+    <string name="error_in_credentials">Error in your Credentials</string>
+    <string name="facebook_app_id">2358925460995504</string>
+    <string name="fb_login_protocol_scheme">fb2358925460995504</string>
+    <string name="license_image">Upload Your License Image</string>
+    <string name="upload_car_image">Upload Your Car Image</string>
+    <string name="car_details">Car Details</string>
+    <string name="national_id_number">National ID Number</string>
+    <string name="enter_national_id">Enter Your National Id</string>
+    <string name="enter_car_details">Enter Your Car Details</string>
+    <string name="car_color_select">Select Your Car Color</string>
+    <string name="car_name_select">Select Your Car Name</string>
+    <string name="verified_successfully">Verified Successfully</string>
+    <string name="posted">Posted Successfully</string>
+    <string name="enter_current_location">Enter Current Location</string>
+    <string name="enter_destination">Enter Your Destination</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="no_results">No Results</string>
+    <string name="registered_successfully">Registered Successfully</string>
+    <string name="more">More</string>
+    <string name="view_profile">View Profile</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="terms_conditions"> Terms and Conditions</string>
+    <string name="refer_earn">Refer and Earn</string>
+    <string name="rate_wasla">Rate WaslaBank</string>
+    <string name="help">Help</string>
+    <string name="friends">Friends</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="search">Search</string>
+    <string name="no_friends">No Friends</string>
+    <string name="verify_driver">Verify Driver</string>
+    <string name="my_rides_small_2">My Rides</string>
+    <string name="ride_details">Ride Details</string>
+    <string name="no_notifications">No Notifications</string>
+    <string name="no_rides">No Rides</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="type_message">Type Message</string>
+    <string name="daily_trip">Daily Trip</string>
+    <string name="enter_day">Enter Day</string>
+    <string name="active">Active</string>
+    <string name="seats_empty">Number of Seats cannot be empty</string>
+    <string name="seats_zero">Number of Seats cannot be zero</string>
+    <string name="distance_empty">Distance cannot be empty</string>
+    <string name="distance_zero">Distance cannot be zero</string>
+    <string name="requested">Requested</string>
+    <string name="link_account">Link Account</string>
+    <string name="do_you_accept_the_join">Do you Accept the Join ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string-array name="cars_names">
+        <item>Audi</item>
+        <item>Chevrolet</item>
+        <item>Nissan</item>
+        <item>Kia</item>
+        <item>BMW</item>
+    </string-array>
+    <string-array name="cars_colors">
+        <item>Red</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="complete_ride">Complete Ride</string>
+    <string name="enter_comment">Enter Comment</string>
+    <string name="your_rate">Your Rate</string>
+    <string name="what_is_your_rate">What is Your Rate</string>
+    <string name="leave_comment">Leave Comment</string>
+    <string name="rate">Rate</string>
+    <string name="seats">Seats (Optional)</string>
+    <string name="gender_preferred">Select Preferred Gender (Optional)</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="distance">Distance (KM)</string>
+    <string name="start_request">Start Request</string>
+    <string name="logout">Logout</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:background="@android:color/white"
+    android:paddingTop="20dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        tools:src="@drawable/im_wasla" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toStartOf="@id/rating_parent"
+        android:layout_toLeftOf="@id/rating_parent"
+        android:layout_toEndOf="@id/profile_image"
+        android:id="@+id/name_parent"
+        android:layout_toRightOf="@id/profile_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8F8F8F"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="David Johnson" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:theme="@style/yellow_rating_bar"
+            tools:rating="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rating_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="#DFDFDF"
+            android:textSize="12sp"
+            tools:text="(113 Reviews)" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/name_parent"
+        android:textSize="12sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/comment"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/profile_image" />
+
+
+</RelativeLayout>
